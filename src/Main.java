@@ -9,6 +9,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
 
     public static void task1 () {
@@ -94,6 +95,16 @@ public class Main {
         System.out.println("разница в весе бойцов " + ves + " кг");
         ves =  men2 % men1;
         System.out.println("разница в весе бойцов " + ves + " кг");
+    }
+    public static void task8 () {
+        System.out.println("Задача 8");
+        var time = 640;
+        var day = 8;
+        var men = time / day;
+        System.out.println("Всего работников в компании — " + men + " человек");
+        men = men + 94;
+        time = men * 8;
+        System.out.println("Если в компании работает " + men + " человек, то всего " + time + " часов работы может быть поделено между сотрудниками");
     }
 
 }
